@@ -1,0 +1,18 @@
+:root {
+  --primary-black: #1b191e;
+  --primary-grey: #f8f8f8;
+  --primary-red: #ff5850;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+@keyframes dot-animation {
+  50% {
+    transform: translateY(-240px);
+  }
+}
