@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./home.css"
 
 const Home = () => {
-  const [clickDot, setclickDot] = useState(false);
+  const [clickDot, setclickDot] = useState<boolean>(false);
   return (
     <div className="container-home">
         <div className="home-left"></div>
