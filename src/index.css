@@ -17,3 +17,9 @@
     transform: translateY(-240px);
   }
 }
+
+@keyframes arrow-down-animation {
+  50% {
+    transform: translateY(20px);
+  }
+}

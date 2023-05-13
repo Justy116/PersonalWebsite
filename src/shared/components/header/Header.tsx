@@ -5,7 +5,7 @@ import "./header.css"
 
 const Header = () => {
 
-    const socials: ISocial[] = socialData;
+  const socials: ISocial[] = socialData;
 
   return (
     <div className="container-social-buttons" >
