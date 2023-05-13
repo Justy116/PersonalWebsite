@@ -3,7 +3,7 @@
   position: relative;
 }
 
-.home-left {
+.home-left-section {
   height: calc(100vh - 40px);
   width: 50%;
   background-color: var(--primary-red);
@@ -19,17 +19,33 @@
 
 .home-text-dot {
   color: var(--primary-red);
+  cursor: pointer;
 }
 
 .animation-dot {
   position: absolute;
-  animation-iteration-count: infinite;
   animation-name: dot-animation;
   animation-duration: 0.9s;
+  cursor: pointer;
 }
 
-.home-right {
+.scroll-text {
+  position: absolute;
+  color: var(--white);
+  bottom: 50px;
+  left: calc(50% - 60px);
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.home-right-section {
   height: calc(100vh - 40px);
   width: 50%;
   background-color: var(--primary-grey);
+}
+
+.container-header {
+  position: absolute;
+  right: 0;
+  top: calc(50% - 40px);
 }
