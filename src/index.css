@@ -12,6 +12,10 @@
   font-family: "Roboto", sans-serif;
 }
 
+body {
+  overflow: hidden;
+}
+
 @keyframes dot-animation {
   50% {
     transform: translateY(-240px);
@@ -21,5 +25,17 @@
 @keyframes arrow-down-animation {
   50% {
     transform: translateY(20px);
+  }
+}
+
+@keyframes left-section-home-animation {
+  100% {
+    transform: translateY(-105%);
+  }
+}
+
+@keyframes right-section-home-animation {
+  100% {
+    transform: translateY(105%);
   }
 }
